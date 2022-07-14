@@ -6,7 +6,7 @@
 .overall {
     position: relative;
     width: 120%;
-    height: 5000px;
+    height: 6000px;
 }
 
 .h1 {
@@ -414,6 +414,7 @@ i:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     animation: floattext2 3s;
 }
+
 @-webkit-keyframes floattext2 {
     from {
         left: 00%;
@@ -433,8 +434,9 @@ i:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     right: 800px;
     animation: floattext3 3s;
-     
+
 }
+
 @-webkit-keyframes floattext3 {
     from {
         right: 00%;
@@ -458,17 +460,20 @@ i:hover {
     border-style: none;
     font-size: larger;
 }
-.pic3{
+
+.pic3 {
     position: absolute;
     top: 2800px;
     width: 550px;
 }
-.head89{
+
+.head89 {
     position: absolute;
     top: 2850px;
     right: 450px;
     animation: floattext4 3s;
 }
+
 @-webkit-keyframes floattext4 {
     from {
         right: 00%;
@@ -480,27 +485,29 @@ i:hover {
     }
 }
 
-.h8{
+.h8 {
     color: #7FB800;
     font-size: x-large;
 }
-.h9{
+
+.h9 {
     color: #1D4D4F;
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 700px;
 
 }
-.para4{
+
+.para4 {
     position: absolute;
     top: 3050px;
-    right: 550px ;
+    right: 550px;
     width: 600px;
     font-size: large;
 
 }
 
-.pic4{
+.pic4 {
     position: absolute;
     top: 3600px;
     width: 85%;
@@ -508,52 +515,120 @@ i:hover {
     opacity: 0.2;
 }
 
-.head1011{
+.head1011 {
     position: absolute;
     top: 3800px;
     left: 550px;
     text-align: center;
 }
-.h10{
+
+.h10 {
     color: #7FB800;
     font-size: xx-large;
     font-weight: 700;
 
 }
-.h11{
-   color: #1D4D4F;
-   font-size: 80px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.h11 {
+    color: #1D4D4F;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 400px;
 }
-.about{
+
+.about {
     position: absolute;
     top: 4200px;
     left: 250px;
     display: flex;
 }
-.pic5{
+
+.pic5 {
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
-.aboutclient{
+
+.aboutclient {
     padding: 10px 10px 10px 50px;
 }
-.para5{
+
+.para5 {
     font-size: larger;
     width: 800px;
-    
+
 
 }
-.polina{
+
+.polina {
     font-size: xx-large;
     margin-top: 10px;
     color: #1D4D4F;
 }
-.role{
+
+.role {
     font-size: x-large;
     margin-top: 10px;
     color: #7FB800;
-    
+}
+
+.head1213 {
+    position: absolute;
+    top: 4600px;
+    left: 150px;
+}
+
+.head12 {
+    font-size: x-large;
+    color: #7FB800;
+
+}
+
+.head13 {
+    color: #1D4D4F;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 600px;
+}
+
+.bottomcard {
+    display: flex;
+    position: absolute;
+    top: 4900px;
+    left: 150px;
+}
+
+.pic6 {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.para6 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+}
+
+.para7 {
+    margin-top: 10px;
+}
+
+.h14{
+    position: absolute;
+    top: 5400px;
+    left: 650px;
+    font-size: xx-large;
+    color: #1D4D4F;
+
+}
+.sponsers{
+    display: flex;
+    position: absolute; 
+    top: 5500px;
+    left: 150px;
+}
+.spon{
+    width: 130px;
+    padding: 20px 50px 0px 50px;
 }
