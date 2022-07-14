@@ -1,0 +1,559 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.overall {
+    position: relative;
+    width: 120%;
+    height: 5000px;
+}
+
+.h1 {
+    position: absolute;
+    font-size: 85px;
+    font-weight: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1D4D4F;
+    width: 510px;
+    top: 200px;
+    left: 150px;
+}
+
+.para1 {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    font-size: large;
+    width: 560px;
+    padding-top: 45px;
+}
+
+.greencircle {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    background-color: rgba(219, 244, 167, 0.76);
+}
+
+.pic1 {
+    position: absolute;
+    box-shadow: 10px 14px 20px rgb(97, 97, 97);
+    left: 800px;
+    top: 130px;
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+}
+
+.button1 {
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    background-color: #7FB800;
+    color: aliceblue;
+    padding: 10px;
+    width: 190px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: larger;
+}
+
+.button1:hover {
+    background-color: #11b403;
+}
+
+.button2 {
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    background-color: white;
+    padding: 10px;
+    width: 190px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: larger;
+}
+
+.button2:hover {
+    cursor: pointer;
+}
+
+i:hover {
+    color: #7FB800;
+}
+
+.organic {
+    position: absolute;
+    right: 0px;
+    top: 660px;
+    font-size: 150px;
+    color: rgba(29, 77, 79, 0.15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cards {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+    top: 600px;
+    left: 110px;
+
+}
+
+.card1 {
+
+    background-color: rgb(255, 255, 255);
+    height: 140px;
+    width: 240px;
+    margin-top: 80px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
+
+    display: flex;
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #7FB800;
+
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+
+.designation {
+    margin-top: 15px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.cardes {
+    padding: 25px 20px 10px 10px;
+}
+
+.h2 {
+    position: absolute;
+    color: #7FB800;
+    top: 950px;
+    left: 700px;
+    font-size: x-large;
+}
+
+.h3 {
+    position: absolute;
+    color: #1D4D4F;
+    top: 1000px;
+    left: 510px;
+    font-size: 70px;
+    font-weight: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    text-align: center;
+}
+
+.h4 {
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+    color: #1D4D4F;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+}
+
+.para2 {
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+    font-size: large;
+    width: 430px;
+
+}
+
+.list1 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 1400px;
+    left: 200px;
+    animation: floatText 1s;
+
+}
+
+@-webkit-keyframes floatText {
+    from {
+        left: 00%;
+    }
+
+    to {
+
+        left: 11%;
+    }
+}
+
+.fa-check {
+    padding: 15px;
+
+}
+
+.check {
+    border-radius: 50%;
+    border: 2px solid #7FB800;
+    width: 70px;
+    height: 70px;
+
+}
+
+.h5 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 0px 10px 20px;
+}
+
+.para3 {
+    font-size: large;
+    width: 350px;
+    padding: 5px 0px 10px 20px;
+}
+
+.list2 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 1550px;
+    left: 200px;
+    animation: floatText 3s;
+
+}
+
+.check1 {
+    border-radius: 50%;
+    border: 2px solid #FAB522;
+    width: 70px;
+    height: 70px;
+}
+
+.list3 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 1700px;
+    left: 200px;
+    animation: floatText 5s;
+
+}
+
+
+.cards2 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+    top: 1200px;
+    right: 250px;
+    animation: floattext1 2s;
+}
+
+@-webkit-keyframes floattext1 {
+    from {
+        right: 00%;
+    }
+
+    to {
+
+        right: 16%;
+    }
+}
+
+.card12 {
+
+    background-color: #7FB800;
+    height: 500px;
+    width: 300px;
+    margin-top: 80px;
+    border: 1px solid rgba(176, 176, 176, 0.684);
+    border-radius: 20px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
+    text-align: center;
+}
+
+
+.card13 {
+
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 250px;
+    margin-top: 55px;
+    margin-left: 20px;
+    border: 1px solid rgba(176, 176, 176, 0.684);
+    border-radius: 20px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
+    text-align: center;
+
+}
+
+.card14 {
+
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border: 1px solid rgba(176, 176, 176, 0.684);
+    border-radius: 20px;
+    box-shadow: 7px 15px 25px rgb(187, 186, 186);
+    text-align: center;
+}
+
+
+.card2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #7FB800;
+
+}
+
+.card21 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.name2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+
+.name12 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.designation12 {
+    padding: 20px 60px 10px 75px;
+    font-size: 20px;
+    width: 150px;
+    color: white;
+}
+
+.designation2 {
+    padding: 20px 60px 10px 55px;
+    font-size: 20px;
+    width: 150px;
+}
+
+.cardes2 {
+    padding: 100px 10px 10px 80px;
+}
+
+.cardes21 {
+    padding: 100px 10px 10px 50px;
+}
+
+.cardes22 {
+    padding: 100px 10px 10px 80px;
+}
+
+.pic2 {
+    position: absolute;
+    top: 1950px;
+    left: 0px;
+    height: 800px;
+    width: 85%;
+    opacity: 0.8;
+}
+
+.h6 {
+    position: absolute;
+    top: 2150px;
+    left: 300px;
+    color: #7FB800;
+    font-size: 160px;
+    text-shadow: 10px 15px 30px rgb(0 0 0 / 30%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: floattext2 3s;
+}
+@-webkit-keyframes floattext2 {
+    from {
+        left: 00%;
+    }
+
+    to {
+
+        left: 16%;
+    }
+}
+
+.h7 {
+    position: absolute;
+    top: 2350px;
+    color: #FAB522;
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    right: 800px;
+    animation: floattext3 3s;
+     
+}
+@-webkit-keyframes floattext3 {
+    from {
+        right: 00%;
+    }
+
+    to {
+
+        right: 44%;
+    }
+}
+
+.button3 {
+    position: absolute;
+    top: 2600px;
+    left: 670px;
+    background-color: #7FB800;
+    color: aliceblue;
+    padding: 20px;
+    width: 200px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: larger;
+}
+.pic3{
+    position: absolute;
+    top: 2800px;
+    width: 550px;
+}
+.head89{
+    position: absolute;
+    top: 2850px;
+    right: 450px;
+    animation: floattext4 3s;
+}
+@-webkit-keyframes floattext4 {
+    from {
+        right: 00%;
+    }
+
+    to {
+
+        right: 24%;
+    }
+}
+
+.h8{
+    color: #7FB800;
+    font-size: x-large;
+}
+.h9{
+    color: #1D4D4F;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 700px;
+
+}
+.para4{
+    position: absolute;
+    top: 3050px;
+    right: 550px ;
+    width: 600px;
+    font-size: large;
+
+}
+
+.pic4{
+    position: absolute;
+    top: 3600px;
+    width: 85%;
+    height: 800px;
+    opacity: 0.2;
+}
+
+.head1011{
+    position: absolute;
+    top: 3800px;
+    left: 550px;
+    text-align: center;
+}
+.h10{
+    color: #7FB800;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+.h11{
+   color: #1D4D4F;
+   font-size: 80px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+}
+.about{
+    position: absolute;
+    top: 4200px;
+    left: 250px;
+    display: flex;
+}
+.pic5{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.aboutclient{
+    padding: 10px 10px 10px 50px;
+}
+.para5{
+    font-size: larger;
+    width: 800px;
+    
+
+}
+.polina{
+    font-size: xx-large;
+    margin-top: 10px;
+    color: #1D4D4F;
+}
+.role{
+    font-size: x-large;
+    margin-top: 10px;
+    color: #7FB800;
+    
+}
