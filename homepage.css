@@ -5,25 +5,25 @@
 
 .overall {
     position: relative;
-    width: 120%;
+    width: 100%;
     height: 6000px;
 }
 
 .h1 {
     position: absolute;
-    font-size: 85px;
+    font-size: 80px;
     font-weight: 900px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #1D4D4F;
     width: 510px;
-    top: 200px;
-    left: 150px;
+    top: 100px;
+    left: 110px;
 }
 
 .para1 {
     position: absolute;
-    top: 400px;
-    left: 150px;
+    top: 280px;
+    left: 110px;
     font-size: large;
     width: 560px;
     padding-top: 45px;
@@ -31,29 +31,29 @@
 
 .greencircle {
     position: absolute;
-    top: -50px;
-    right: 0px;
+    top: -60px;
+    right: -60px;
     border-radius: 100%;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     background-color: rgba(219, 244, 167, 0.76);
 }
 
 .pic1 {
     position: absolute;
     box-shadow: 10px 14px 20px rgb(97, 97, 97);
-    left: 800px;
-    top: 130px;
+    left: 780px;
+    top: 60px;
     border-radius: 100%;
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
     z-index: 1;
 }
 
 .button1 {
     position: absolute;
-    top: 550px;
-    left: 150px;
+    top: 450px;
+    left: 110px;
     background-color: #7FB800;
     color: aliceblue;
     padding: 10px;
@@ -69,8 +69,8 @@
 
 .button2 {
     position: absolute;
-    top: 550px;
-    left: 400px;
+    top: 450px;
+    left: 350px;
     background-color: white;
     padding: 10px;
     width: 190px;
@@ -89,8 +89,8 @@ i:hover {
 
 .organic {
     position: absolute;
-    right: 0px;
-    top: 660px;
+    right: 10px;
+    top: 650px;
     font-size: 150px;
     color: rgba(29, 77, 79, 0.15);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -102,8 +102,8 @@ i:hover {
     display: flex;
     flex-wrap: wrap;
 
-    top: 600px;
-    left: 110px;
+    top: 500px;
+    left: 60px;
 
 }
 
@@ -155,16 +155,16 @@ i:hover {
 .h2 {
     position: absolute;
     color: #7FB800;
-    top: 950px;
-    left: 700px;
+    top: 850px;
+    left: 600px;
     font-size: x-large;
 }
 
 .h3 {
     position: absolute;
     color: #1D4D4F;
-    top: 1000px;
-    left: 510px;
+    top: 900px;
+    left: 410px;
     font-size: 70px;
     font-weight: 900px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -174,8 +174,8 @@ i:hover {
 
 .h4 {
     position: absolute;
-    top: 1200px;
-    left: 200px;
+    top: 1100px;
+    left: 100px;
     color: #1D4D4F;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -184,8 +184,8 @@ i:hover {
 
 .para2 {
     position: absolute;
-    top: 1300px;
-    left: 200px;
+    top: 1200px;
+    left: 100px;
     font-size: large;
     width: 430px;
 
@@ -195,8 +195,8 @@ i:hover {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    top: 1400px;
-    left: 200px;
+    top: 1300px;
+    left: 100px;
     animation: floatText 1s;
 
 }
@@ -208,7 +208,7 @@ i:hover {
 
     to {
 
-        left: 11%;
+        left: 7%;
     }
 }
 
@@ -241,9 +241,9 @@ i:hover {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    top: 1550px;
-    left: 200px;
-    animation: floatText 3s;
+    top: 1450px;
+    left: 100px;
+    animation: floatText 2s;
 
 }
 
@@ -258,9 +258,9 @@ i:hover {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    top: 1700px;
-    left: 200px;
-    animation: floatText 5s;
+    top: 1600px;
+    left: 100px;
+    animation: floatText 3s;
 
 }
 
@@ -271,7 +271,7 @@ i:hover {
     flex-wrap: wrap;
 
     top: 1200px;
-    right: 250px;
+    right: 85px;
     animation: floattext1 2s;
 }
 
@@ -282,15 +282,15 @@ i:hover {
 
     to {
 
-        right: 16%;
+        right: 6%;
     }
 }
 
 .card12 {
 
     background-color: #7FB800;
-    height: 500px;
-    width: 300px;
+    height: 450px;
+    width: 250px;
     margin-top: 80px;
     border: 1px solid rgba(176, 176, 176, 0.684);
     border-radius: 20px;
@@ -302,8 +302,8 @@ i:hover {
 .card13 {
 
     background-color: rgb(255, 255, 255);
-    height: 550px;
-    width: 250px;
+    height: 500px;
+    width: 200px;
     margin-top: 55px;
     margin-left: 20px;
     border: 1px solid rgba(176, 176, 176, 0.684);
@@ -316,8 +316,8 @@ i:hover {
 .card14 {
 
     background-color: rgb(255, 255, 255);
-    height: 500px;
-    width: 270px;
+    height: 450px;
+    width: 230px;
     margin-top: 80px;
     margin-left: 20px;
     border: 1px solid rgba(176, 176, 176, 0.684);
@@ -371,42 +371,42 @@ i:hover {
 }
 
 .designation12 {
-    padding: 20px 60px 10px 75px;
+    padding: 20px 60px 10px 50px;
     font-size: 20px;
     width: 150px;
     color: white;
 }
 
 .designation2 {
-    padding: 20px 60px 10px 55px;
+    padding: 20px 60px 10px 30px;
     font-size: 20px;
     width: 150px;
 }
 
 .cardes2 {
-    padding: 100px 10px 10px 80px;
+    padding: 60px 10px 10px 55px;
 }
 
 .cardes21 {
-    padding: 100px 10px 10px 50px;
+    padding: 60px 10px 10px 30px;
 }
 
 .cardes22 {
-    padding: 100px 10px 10px 80px;
+    padding: 60px 10px 10px 45px;
 }
 
 .pic2 {
     position: absolute;
-    top: 1950px;
+    top: 1800px;
     left: 0px;
     height: 800px;
-    width: 85%;
+    width: 100%;
     opacity: 0.8;
 }
 
 .h6 {
     position: absolute;
-    top: 2150px;
+    top: 1950px;
     left: 300px;
     color: #7FB800;
     font-size: 160px;
@@ -422,17 +422,17 @@ i:hover {
 
     to {
 
-        left: 16%;
+        left: 22%;
     }
 }
 
 .h7 {
     position: absolute;
-    top: 2350px;
+    top: 2200px;
     color: #FAB522;
     font-size: 130px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    right: 800px;
+    right: 400px;
     animation: floattext3 3s;
 
 }
@@ -444,14 +444,14 @@ i:hover {
 
     to {
 
-        right: 44%;
+        right: 29%;
     }
 }
 
 .button3 {
     position: absolute;
-    top: 2600px;
-    left: 670px;
+    top: 2450px;
+    left: 590px;
     background-color: #7FB800;
     color: aliceblue;
     padding: 20px;
@@ -463,14 +463,14 @@ i:hover {
 
 .pic3 {
     position: absolute;
-    top: 2800px;
+    top: 2600px;
     width: 550px;
 }
 
 .head89 {
     position: absolute;
-    top: 2850px;
-    right: 450px;
+    top: 2750px;
+    right: 100px;
     animation: floattext4 3s;
 }
 
@@ -481,7 +481,7 @@ i:hover {
 
     to {
 
-        right: 24%;
+        right: 7%;
     }
 }
 
@@ -492,24 +492,24 @@ i:hover {
 
 .h9 {
     color: #1D4D4F;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 700px;
+    width: 650px;
 
 }
 
 .para4 {
     position: absolute;
-    top: 3050px;
-    right: 550px;
-    width: 600px;
+    top: 2950px;
+    right: 250px;
+    width: 500px;
     font-size: large;
 
 }
 
 .pic4 {
     position: absolute;
-    top: 3600px;
+    top: 3400px;
     width: 85%;
     height: 800px;
     opacity: 0.2;
@@ -517,8 +517,8 @@ i:hover {
 
 .head1011 {
     position: absolute;
-    top: 3800px;
-    left: 550px;
+    top: 3600px;
+    left: 500px;
     text-align: center;
 }
 
@@ -538,8 +538,8 @@ i:hover {
 
 .about {
     position: absolute;
-    top: 4200px;
-    left: 250px;
+    top: 4050px;
+    left: 200px;
     display: flex;
 }
 
@@ -574,7 +574,7 @@ i:hover {
 
 .head1213 {
     position: absolute;
-    top: 4600px;
+    top: 4400px;
     left: 150px;
 }
 
@@ -594,8 +594,8 @@ i:hover {
 .bottomcard {
     display: flex;
     position: absolute;
-    top: 4900px;
-    left: 150px;
+    top: 4700px;
+    left: 130px;
 }
 
 .pic6 {
@@ -617,7 +617,7 @@ i:hover {
 .h14{
     position: absolute;
     top: 5400px;
-    left: 650px;
+    left: 600px;
     font-size: xx-large;
     color: #1D4D4F;
 
@@ -626,7 +626,7 @@ i:hover {
     display: flex;
     position: absolute; 
     top: 5500px;
-    left: 150px;
+    left: 100px;
 }
 .spon{
     width: 130px;
